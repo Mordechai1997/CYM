@@ -392,9 +392,16 @@ main {
 
 .info-box span {
     border-radius: 50%;
-    background-color: #1ea59a62;
+    background-color: #1ea59a21;
     width: 50px;
     height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-box span svg {
+    fill: var(--logo-color);
 }
 
 .info-box div {
