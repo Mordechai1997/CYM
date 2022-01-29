@@ -532,6 +532,7 @@ footer {
 }
 
 .left-footer {
+    position: relative;
     width: 50%;
     height: 100%;
     background-color: var(--footer-left-bg);
@@ -549,7 +550,9 @@ footer {
 
 .left-footer img {
     position: absolute;
-    margin: 211px 0 0 140px;
+    top: 200px;
+    left: 20%;
+    /* margin: 211px 0 0 140px; */
 }
 
 .footer-icon-left {
@@ -560,7 +563,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 169px 0 0 200px;
+    margin: 169px 0 0 30%;
 }
 
 .footer-icon-left span {
@@ -862,7 +865,10 @@ input:nth-of-type(5):checked~main#carousel {
         width: 100%;
     }
     .left-footer {
-        display: none;
+        width: 100%;
+    }
+    .left-footer h3 {
+        width: 65%;
     }
     .job-describtion {
         max-width: 100vw;
